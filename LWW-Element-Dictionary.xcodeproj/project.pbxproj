@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AEFF57F02D035670008C1C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF57EF2D035670008C1C70 /* AppDelegate.swift */; };
-		AEFF57F22D035670008C1C70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF57F12D035670008C1C70 /* SceneDelegate.swift */; };
 		AEFF57F42D035670008C1C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF57F32D035670008C1C70 /* ViewController.swift */; };
 		AEFF57F72D035670008C1C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFF57F52D035670008C1C70 /* Main.storyboard */; };
 		AEFF57F92D035671008C1C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFF57F82D035671008C1C70 /* Assets.xcassets */; };
@@ -16,6 +15,9 @@
 		AEFF58072D035671008C1C70 /* LWW_Element_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF58062D035671008C1C70 /* LWW_Element_DictionaryTests.swift */; };
 		AEFF58112D035671008C1C70 /* LWW_Element_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF58102D035671008C1C70 /* LWW_Element_DictionaryUITests.swift */; };
 		AEFF58132D035671008C1C70 /* LWW_Element_DictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF58122D035671008C1C70 /* LWW_Element_DictionaryUITestsLaunchTests.swift */; };
+		AEFF58202D0356BE008C1C70 /* LWWElementDictionaryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF581F2D0356BE008C1C70 /* LWWElementDictionaryInterface.swift */; };
+		AEFF58222D0356D6008C1C70 /* LWWElementDictionaryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF58212D0356D6008C1C70 /* LWWElementDictionaryDefault.swift */; };
+		AEFF58242D0359D0008C1C70 /* ThreadSafetyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF58232D0359D0008C1C70 /* ThreadSafetyDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AEFF57EC2D035670008C1C70 /* LWW-Element-Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LWW-Element-Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFF57EF2D035670008C1C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEFF57F12D035670008C1C70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AEFF57F32D035670008C1C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEFF57F62D035670008C1C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEFF57F82D035671008C1C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		AEFF580C2D035671008C1C70 /* LWW-Element-DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LWW-Element-DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFF58102D035671008C1C70 /* LWW_Element_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWW_Element_DictionaryUITests.swift; sourceTree = "<group>"; };
 		AEFF58122D035671008C1C70 /* LWW_Element_DictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWW_Element_DictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEFF581F2D0356BE008C1C70 /* LWWElementDictionaryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionaryInterface.swift; sourceTree = "<group>"; };
+		AEFF58212D0356D6008C1C70 /* LWWElementDictionaryDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionaryDefault.swift; sourceTree = "<group>"; };
+		AEFF58232D0359D0008C1C70 /* ThreadSafetyDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafetyDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 		AEFF57EE2D035670008C1C70 /* LWW-Element-Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				AEFF581F2D0356BE008C1C70 /* LWWElementDictionaryInterface.swift */,
+				AEFF58212D0356D6008C1C70 /* LWWElementDictionaryDefault.swift */,
+				AEFF58232D0359D0008C1C70 /* ThreadSafetyDictionary.swift */,
 				AEFF57EF2D035670008C1C70 /* AppDelegate.swift */,
-				AEFF57F12D035670008C1C70 /* SceneDelegate.swift */,
 				AEFF57F32D035670008C1C70 /* ViewController.swift */,
 				AEFF57F52D035670008C1C70 /* Main.storyboard */,
 				AEFF57F82D035671008C1C70 /* Assets.xcassets */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFF57F42D035670008C1C70 /* ViewController.swift in Sources */,
+				AEFF58242D0359D0008C1C70 /* ThreadSafetyDictionary.swift in Sources */,
+				AEFF58202D0356BE008C1C70 /* LWWElementDictionaryInterface.swift in Sources */,
+				AEFF58222D0356D6008C1C70 /* LWWElementDictionaryDefault.swift in Sources */,
 				AEFF57F02D035670008C1C70 /* AppDelegate.swift in Sources */,
-				AEFF57F22D035670008C1C70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
